@@ -1,0 +1,23 @@
+summarize:
+  module: models.summarize_model
+  function: run
+  description: Summarize long-form text
+  tags: [cheap, fast, basic_nlp]
+
+chat:
+  module: models.chat_model
+  function: run
+  description: Chat using OpenAI GPT
+  tags: [premium, gpt, openai, llm]
+
+sentiment:
+  module: models.sentiment_model
+  function: run
+  description: Analyze sentiment from text
+  tags: [cheap, basic_nlp, fast]
+
+recommender:
+  module: models.recommender_model
+  function: run
+  description: Recommend items based on input text
+  tags: [ml, vector, similarity]
